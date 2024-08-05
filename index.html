@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="switchMode()" id="switch">Off</button>
+
+    <script>
+        function switchMode() {
+            var btn = document.getElementById("switch");
+
+            if(btn.textContent == "Off") {
+                btn.textContent = "On";
+            }else {
+                btn.textContent = "Off";
+            }
+        }
+    </script>
+</body>
+</html>
